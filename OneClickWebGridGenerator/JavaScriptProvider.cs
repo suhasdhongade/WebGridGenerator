@@ -10,6 +10,7 @@ namespace OneClickWebGridGenerator
     {
         internal static string GetEditRowJavaScript(WebGridData myGrid)
         {
+            //THis Tem Comment
             string editRowVariableHtml = "$(\".edit\").live(\"click\", function () { var str = $(this).attr(\"id\").split(\"_\"); id = str[1];";
 
             foreach (var item in myGrid.ColumnsInformation)
